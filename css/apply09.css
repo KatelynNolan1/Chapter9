@@ -19,7 +19,7 @@ body {
 
 header {
   font-size: 1.8rem;
-  background-color: rgb(255, 226, 231);
+  background-color: #e5e0fa;
   text-align: center;
   padding: 0.8rem;
   margin-bottom: 1rem;
@@ -56,7 +56,7 @@ h3 {
 
 footer {
   text-align: center;
-  background-color: rgb(255, 226, 231);
+  background-color: #e5e0fa ;
   padding: 1rem;
 }
 footer p span {
