@@ -1,73 +1,92 @@
 <!DOCTYPE html>
 <!-- Student's Name, Today's Date -->
 <html lang="en">
-<head>
-	<title></title>
-	<meta charset="utf-8">
-    <link rel="stylesheet" href="css/apply09.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>C9 Apply Your Knowledge: Adding Audio to a Webpage</title>
+    <!-- Linked CSS stylesheet -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-	<div id="container">
+  <body>
+    <div id="container">
+      <!-- Use the header area for the website name or logo -->
+      <header>
+        <h1>Event Videos</h1>
+      </header>
 
-        <!-- Use the header area for the website name or logo -->
-        <header>
-            <h1>Event Videos</h1>
-        </header>
+      <!-- Use the main area to add the main content of the webpage -->
+      <main>
+        <!-- 
+          Page has divided into two section
+            1) top__section    - 3 columns which are further divided as sections
+            2) bottom__section - 3 columns which are further divided as sections
+         -->
+        <!-- HTML CONTENT FOR THE top__section -->
+        <div class="top__section">
+          <section class="section1">
+            <h3>Let Us Make Your Video</h3>
+            <p>
+              Did you just get married? Have your child's first birthday party?
+              Experience an unforgettable vacation? Let us make a video with
+              your most memorable photos!
+            </p>
+          </section>
 
-        <!-- Use the main area to add the main content of the webpage -->
-        <main>
-            
-            <section>
-                
-                <h3>Let Us Make Your Video</h3>
-                <p>Did you just get married? Have your child's first birthday party? Experience an unforgettable vacation? Let us make a video with your most memorable photos!</p>
+          <section class="section2">
+            <h3>Step 1: Upload Your Photos</h3>
+            <form>
+              <input type="file" />
+            </form>
+          </section>
 
-            </section>
+          <section class="section3">
+            <h3>Step 2: Select Your Music</h3>
+            <p>
+              We take pride in every video we create. Please select the music
+              you want for your video.
+            </p>
+          </section>
+        </div>
+        <!-- HTML CONTENT FOR THE bottom__section -->
+        <div class="bottom__section">
+          <!-- 
+            Each section does have audio element with two sources and with note
+           -->
+          <section class="section1">
+            <h3>Music Option 1</h3>
+            <audio controls>
+              <source src="media/audio-happy1.mp3" type="audio/mpeg" />
+              <source src="media/audio-happy2.mp3" type="audio/mpeg" />
+              <p>Your browser does not support the audio element.</p>
+            </audio>
+          </section>
 
-            <section>
+          <section class="section2">
+            <h3>Music Option 2</h3>
+            <audio controls>
+              <source src="media/audio-rock1.mp3" type="audio/mpeg" />
+              <source src="media/audio-rock2.mp3" type="audio/mpeg" />
+              <p>Your browser does not support the audio element.</p>
+            </audio>
+          </section>
 
-                <h3>Step 1: Upload Your Photos</h3>
+          <section class="section3">
+            <h3>Music Option 3</h3>
+            <audio controls>
+              <source src="media/audio-tech1.mp3" type="audio/mpeg" />
+              <source src="media/audio-tech2.mp3" type="audio/mpeg" />
+              <p>Your browser does not support the audio element.</p>
+            </audio>
+          </section>
+        </div>
+      </main>
 
-                <form>
-                    <input type="file">
-                </form>
-
-            </section>
-            
-            <section>
-
-                <h3>Step 2: Select Your Music</h3>
-                <p>We take pride in every video we create. Please select the music you want for your video.</p>
-
-            </section>
-            
-            <section>
-                
-                <h3>Music Option 1</h3>
-                
-            </section>
-            
-            <section>
-                
-                <h3>Music Option 2</h3>
-                
-            </section>
-            
-            <section>
-                
-                <h3>Music Option 3</h3>
-                
-            </section>
-
-        </main>
-
-        <!-- Use the footer area to add webpage footer content -->
-        <footer>
-            <p>Created by: Student's Name</p>
-        </footer>
-
-	</div>
-	
-</body>
+      <!-- Use the footer area to add webpage footer content -->
+      <footer>
+        <p><span>Created by:</span> <i>Firstname Lastname</i></p>
+      </footer>
+    </div>
+  </body>
 </html>
